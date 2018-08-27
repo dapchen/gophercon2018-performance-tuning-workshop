@@ -384,3 +384,8 @@ Add profiling to an application. If you don't have a piece of code that you are 
 [4]: http://blog.golang.org/profiling-go-programs
 [5]: https://software.intel.com/en-us/blogs/2014/05/10/debugging-performance-issues-in-go-programs
 [6]: https://www.gutenberg.org/ebooks/2701
+
+
+Notes:
+go test -bench=GenericNoMAtch -run=XXX strings -memprofile=mem.pb.gz
+pprof -http=:6060 -inuse_objects mem.pb.gz
