@@ -387,5 +387,6 @@ Add profiling to an application. If you don't have a piece of code that you are 
 
 
 Notes:
-go test -bench=GenericNoMAtch -run=XXX strings -memprofile=mem.pb.gz
-pprof -http=:6060 -inuse_objects mem.pb.gz
+- go test -bench=GenericNoMAtch -run=XXX strings -memprofile=mem.pb.gz
+
+- pprof -http=:6060 -inuse_objects mem.pb.gz
