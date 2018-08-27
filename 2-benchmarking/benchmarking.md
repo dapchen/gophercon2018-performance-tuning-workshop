@@ -386,4 +386,7 @@ Are there any questions?
 Perhaps it is time for a break.
 
 - Francesc will provide a different repository that shows the assembly code of tests, to check compiler optimization.
+- Question: `benchstat old.txt new.txt` returned nothing on my laptop. `benchstat [file]` worked fine. 
+
+
 
